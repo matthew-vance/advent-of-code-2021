@@ -1,0 +1,21 @@
+{
+  "name": "advent-of-code-2021",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap --ts -w"
+  },
+  "keywords": [],
+  "author": "Matthew Vance",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^16.11.11",
+    "@types/tap": "^15.0.5",
+    "tap": "^15.1.5",
+    "typescript": "^4.5.2"
+  },
+  "dependencies": {
+    "ts-node": "^10.4.0"
+  }
+}
