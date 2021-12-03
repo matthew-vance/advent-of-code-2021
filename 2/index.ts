@@ -1,9 +1,6 @@
-import path from "path";
-import fs from "fs";
+import readInput from "../readInput";
 import { part1, part2 } from "./2";
 
-const input = fs
-  .readFileSync(path.join(__dirname, "input.txt"), "utf-8")
-  .split("\n");
+const input = readInput(__dirname);
 
 console.log({ part1: part1(input), part2: part2(input) });
