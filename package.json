@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "ts-node",
-    "test": "tap --ts -w"
+    "test": "npm run test:ci -- -w",
+    "test:ci": "tap --ts"
   },
   "keywords": [],
   "author": "Matthew Vance",
